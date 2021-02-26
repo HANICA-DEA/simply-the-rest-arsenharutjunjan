@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="simply-the-rest-workshop:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>simply-the-rest-workshop</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="simply-the-rest-workshop-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="simply-the-rest-workshop:war exploded" />
+    </root>
+  </artifact>
+</component>
